@@ -4,7 +4,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint app/javascript",
-    "bundler": "parcel index.html"
+    "frontend": "parcel index.html",
+    "backend": "json-server --watch db.json"
   },
   "jest": {
     "rootDir": ".",
@@ -26,6 +27,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^21.4.2",
     "jest": "^21.2.1",
+    "json-server": "^0.12.1",
     "parcel-bundler": "^1.0.3"
   }
 }
